@@ -23,13 +23,14 @@ It is time to place activity descriptions into the data table.
 
 ##Step 4
 In this step meaningful names are provided for the columns (variables).
-* Anything that begins with a "t", has the t changed to Time.
-* All "Acc" are changed to Acceleration.
-* All "Gyro" are changed to Gyroscope.
-* All "Mag" are changed to Magnitude.
-* All "mean()" are changed to Mean.
-* All "std()" are changed to StandardDeviation.
-* Finally, anything begining with "f", is changed to "Frequency", same as t in the first transformation.
+* Anything that begins with a "t", has the t changed to time.
+* All "Acc" are changed to acceleration.
+* All "Gyro" are changed to gyroscope.
+* All "Mag" are changed to magnitude.
+* All "mean()" are changed to mean.
+* All "std()" are changed to standarddeviation.
+* Anything beginning with "f", is changed to "frequency", same as t in the first transformation.
+* Finally, make all column names (variables) lower case.
 
 ##Step 5
 It is requested that the data be grouped by activity and subject, and mean provided.  This is done via dcast() method.
